@@ -1,0 +1,21 @@
+.rodape{
+    background-color: black;
+    height: 70px;
+    box-shadow:-10px -10px 50px 10px rgb(58, 58, 58);
+    
+}
+.list-icons>a>img{
+    display: inline;    
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+
+}
+.img-icons-footer:not(:first-child){
+    position: relative;
+    margin-left: 320px;  
+}
+.img-icons-footer:first-child{
+    position: relative;
+    margin-left:100px;  
+}

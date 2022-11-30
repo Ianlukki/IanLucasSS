@@ -1,0 +1,56 @@
+.header-site{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-vermelho-em-branco-simples-para-negocios_53876-115949.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+    color: #ffff;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    width: 100vw;
+}
+.col-xs-12{
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.795);
+    box-shadow: 20px 20px 50px rgb(255, 255, 255);
+    padding: 20px;
+    letter-spacing: 10px;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;;
+}
+.text-center{
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif; 
+    font-size: 50px;
+    animation:text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    color: #ffff;
+}
+.col-xs-12  h2{
+    color: red;
+}
+
+
+
+@-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }

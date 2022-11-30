@@ -1,0 +1,225 @@
+*{
+        margin: 0;
+        padding: 0;
+        border: 0;
+}
+
+
+body{
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+    background-image:url(https://img.wallpapic-br.com/i137-527-811/medium/arte-digital-preto-e-branco-pretos-flores-imagem-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.header-site{
+    background-image: url(https://img.freepik.com/fotos-premium/vista-aerea-do-sol-nascendo-sobre-o-mar_93200-2214.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+    color: #ffff;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.container-frase{
+    width: 50%;
+    height:20%;
+    word-wrap: break-word;  
+    color: #2F4F4F;
+    margin: 50px;
+    font-size: 15px; 
+    padding-top: 200px;
+    padding-bottom: 200px;
+    box-shadow:-10px -10px 50px 10px rgba(65, 64, 64, 0.021);
+   
+}
+.frase h3{
+        font-size: 30px;
+    font-weight: bold;
+    line-height: -10px;
+    animation: roll-in-left 1.1s both;
+
+}
+.container-fr-img{
+        background-color: red;
+        display: inline;
+
+}
+#img1{
+    animation: slide-in-elliptic-top-fwd  1.5s both;
+}
+
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+            transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+            transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+            transform-origin: 50% 1400px;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+
+.container-img{
+    background-image: url(https://img.freepik.com/fotos-premium/vista-aerea-do-sol-nascendo-sobre-o-mar_93200-2214.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+    color: #ffff;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+.text-center{
+        display: flex;
+        justify-content: center;
+        color:black;
+        font-size: 50px;
+}
+
+.lead-text-center{
+        display: flex;
+        justify-content: center;
+        color:black;
+        font-weight: bold;
+        margin-top: 50px;
+}
+.btn-btn-danger{
+        border-radius: 4px ;  
+        color:white;    
+        padding-top: 10px;  
+        padding-bottom: 10px;
+        text-decoration: none;
+        margin-top: 150px;
+}
+
+.text-center-btn{
+        display: flex;
+        justify-content: center;
+        background-color: red;
+        width:200px;
+}
+#pj-img{
+        display: inline;
+        width: 50px;
+        height: 50px;
+        margin: 75px;        
+} 
+
+#pj-img:hover{
+        color:white;
+        animation: jello-horizontal 1.2s infinite both;
+        
+
+
+}
+@-webkit-keyframes jello-horizontal {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+                  transform: scale3d(1, 1, 1);
+        }
+        30% {
+          -webkit-transform: scale3d(1.25, 0.75, 1);
+                  transform: scale3d(1.25, 0.75, 1);
+        }
+        40% {
+          -webkit-transform: scale3d(0.75, 1.25, 1);
+                  transform: scale3d(0.75, 1.25, 1);
+        }
+        50% {
+          -webkit-transform: scale3d(1.15, 0.85, 1);
+                  transform: scale3d(1.15, 0.85, 1);
+        }
+        65% {
+          -webkit-transform: scale3d(0.95, 1.05, 1);
+                  transform: scale3d(0.95, 1.05, 1);
+        }
+        75% {
+          -webkit-transform: scale3d(1.05, 0.95, 1);
+                  transform: scale3d(1.05, 0.95, 1);
+        }
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+                  transform: scale3d(1, 1, 1);
+        }
+      }
+      @keyframes jello-horizontal {
+        0% {
+          -webkit-transform: scale3d(1, 1, 1);
+                  transform: scale3d(1, 1, 1);
+        }
+        30% {
+          -webkit-transform: scale3d(1.25, 0.75, 1);
+                  transform: scale3d(1.25, 0.75, 1);
+        }
+        40% {
+          -webkit-transform: scale3d(0.75, 1.25, 1);
+                  transform: scale3d(0.75, 1.25, 1);
+        }
+        50% {
+          -webkit-transform: scale3d(1.15, 0.85, 1);
+                  transform: scale3d(1.15, 0.85, 1);
+        }
+        65% {
+          -webkit-transform: scale3d(0.95, 1.05, 1);
+                  transform: scale3d(0.95, 1.05, 1);
+        }
+        75% {
+          -webkit-transform: scale3d(1.05, 0.95, 1);
+                  transform: scale3d(1.05, 0.95, 1);
+        }
+        100% {
+          -webkit-transform: scale3d(1, 1, 1);
+                  transform: scale3d(1, 1, 1);
+        }
+      }

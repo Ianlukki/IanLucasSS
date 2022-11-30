@@ -1,0 +1,214 @@
+.container-img{
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-textura-grunge-diagonal-branco-e-vermelho_1409-1747.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:cover;
+    background-attachment: fixed;
+    color: #ffff;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    width: 100vw;
+}
+.container-frase{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.text-pj1>a>img,.text-pj2>a>img,.text-pj3>a>img{
+    width: 130px;
+    height: 130px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    animation:wobble-hor-bottom infinite 0.8s both ;
+    
+}
+.text-pj1>a>img,.text-pj3>a>img{
+    position: relative;
+    left:80px;
+}
+
+.text-pj2{
+    position: relative  ;
+    left: 80%;
+    top: 10px;
+
+
+}
+.text-pj2>a>img{
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+@-webkit-keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+  @keyframes wobble-hor-bottom {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(-6deg);
+              transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(6deg);
+              transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(-3.6deg);
+              transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(2.4deg);
+              transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(-1.2deg);
+              transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+.text-msg-pj1,.text-msg-pj3{
+
+    width: 70%;
+    position: relative;
+    left:20%;
+    bottom: 220px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif; ;
+    line-height: 30px;
+    letter-spacing: 5px; 
+    animation:text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+ 
+.text-msg-pj2{
+
+    width: 70%;
+    position: relative;
+    left: 5%;
+    bottom: 200px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif; ;
+    line-height: 30px;
+    letter-spacing: 5px;
+    animation:text-focus-in 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+ }
+ .seta-vd1{
+  position: relative;
+  left:15%;
+  bottom: 200px;
+  width: 50px;
+  height: 50px;
+  animation: ping3 2s ease-in-out infinite both;
+ }
+.seta-vd3{
+  position: relative;
+  left:15%;
+  bottom: 200px;
+  width: 50px;
+  height: 50px;
+  animation: ping2 2s ease-in-out infinite both;
+ }
+ .seta-vd2{
+  position: relative;
+  left:75%;
+  bottom: 200px;
+  width: 50px;
+  height: 50px;
+  animation: ping1 2s ease-in-out infinite both;
+ }
+
+@keyframes ping1 {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+    opacity: 0.8;
+    transform: scaleX(-1) rotate(170deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0;
+    transform: scaleX(-1) rotate(170deg);
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+    opacity: 0;
+    transform: scaleX(-1) rotate(170deg);
+  }
+}
+
+@keyframes ping2 {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+            opacity: 0.8;
+            transform:  rotate(160deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            opacity: 0;
+            transform:  rotate(160deg);
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+            opacity: 0;
+            transform:  rotate(160deg);
+  }
+}
+@keyframes ping3 {
+  0% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+            opacity: 0.8;
+            transform: rotate(230deg);
+  }
+  80% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            opacity: 0;
+            transform: rotate(230deg);
+  }
+  100% {
+    -webkit-transform: scale(2.2);
+            transform: scale(2.2);
+            opacity: 0;
+            transform: rotate(230deg);
+  }
+}
